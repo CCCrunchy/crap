@@ -7,7 +7,7 @@ class killxd {
 		$(".chat .content .messages-wrapper .messages .message-group .comment .message .message-text .markup:not(pre), .chat .content .messages-wrapper .messages .message-group .comment .message .message-text .markup:not(code)").each(function() {
 			var tagRegex = /(?:\bXD\b)/igm;
 			var html = $(this).html();
-			$(this).html(html.replace(tagRegex, 'I\'m a retard lol.'));
+			$(this).html(html.replace(tagRegex, 'Mi normbe es Autisimo.'));
 		});
 	 }, 100);
    }
